@@ -18,6 +18,15 @@
 		282DC69C1789191B0042FC9C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 282DC69B1789191B0042FC9C /* Default-568h@2x.png */; };
 		282DC69F1789191B0042FC9C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282DC69E1789191B0042FC9C /* ViewController.m */; };
 		282DC6A21789191B0042FC9C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282DC6A01789191B0042FC9C /* ViewController.xib */; };
+		282DC6AB178919540042FC9C /* NTParallaxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 282DC6AA178919540042FC9C /* NTParallaxView.m */; };
+		282DC6B517891A430042FC9C /* demo0.png in Resources */ = {isa = PBXBuildFile; fileRef = 282DC6AD17891A430042FC9C /* demo0.png */; };
+		282DC6B617891A430042FC9C /* demo0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 282DC6AE17891A430042FC9C /* demo0@2x.png */; };
+		282DC6B717891A430042FC9C /* demo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 282DC6AF17891A430042FC9C /* demo1.png */; };
+		282DC6B817891A430042FC9C /* demo1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 282DC6B017891A430042FC9C /* demo1@2x.png */; };
+		282DC6B917891A430042FC9C /* demo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 282DC6B117891A430042FC9C /* demo2.png */; };
+		282DC6BA17891A430042FC9C /* demo2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 282DC6B217891A430042FC9C /* demo2@2x.png */; };
+		282DC6BB17891A430042FC9C /* demo3.png in Resources */ = {isa = PBXBuildFile; fileRef = 282DC6B317891A430042FC9C /* demo3.png */; };
+		282DC6BC17891A430042FC9C /* demo3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 282DC6B417891A430042FC9C /* demo3@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +46,16 @@
 		282DC69D1789191B0042FC9C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		282DC69E1789191B0042FC9C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		282DC6A11789191B0042FC9C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		282DC6A9178919540042FC9C /* NTParallaxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTParallaxView.h; sourceTree = "<group>"; };
+		282DC6AA178919540042FC9C /* NTParallaxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTParallaxView.m; sourceTree = "<group>"; };
+		282DC6AD17891A430042FC9C /* demo0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo0.png; sourceTree = "<group>"; };
+		282DC6AE17891A430042FC9C /* demo0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "demo0@2x.png"; sourceTree = "<group>"; };
+		282DC6AF17891A430042FC9C /* demo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo1.png; sourceTree = "<group>"; };
+		282DC6B017891A430042FC9C /* demo1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "demo1@2x.png"; sourceTree = "<group>"; };
+		282DC6B117891A430042FC9C /* demo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo2.png; sourceTree = "<group>"; };
+		282DC6B217891A430042FC9C /* demo2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "demo2@2x.png"; sourceTree = "<group>"; };
+		282DC6B317891A430042FC9C /* demo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo3.png; sourceTree = "<group>"; };
+		282DC6B417891A430042FC9C /* demo3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "demo3@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +102,7 @@
 		282DC68B1789191B0042FC9C /* NTParallaxScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				282DC6A8178919540042FC9C /* NTParallaxView */,
 				282DC6941789191B0042FC9C /* AppDelegate.h */,
 				282DC6951789191B0042FC9C /* AppDelegate.m */,
 				282DC69D1789191B0042FC9C /* ViewController.h */,
@@ -96,6 +116,7 @@
 		282DC68C1789191B0042FC9C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				282DC6AC17891A2F0042FC9C /* image */,
 				282DC68D1789191B0042FC9C /* NTParallaxScrollView-Info.plist */,
 				282DC68E1789191B0042FC9C /* InfoPlist.strings */,
 				282DC6911789191B0042FC9C /* main.m */,
@@ -105,6 +126,30 @@
 				282DC69B1789191B0042FC9C /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		282DC6A8178919540042FC9C /* NTParallaxView */ = {
+			isa = PBXGroup;
+			children = (
+				282DC6A9178919540042FC9C /* NTParallaxView.h */,
+				282DC6AA178919540042FC9C /* NTParallaxView.m */,
+			);
+			path = NTParallaxView;
+			sourceTree = "<group>";
+		};
+		282DC6AC17891A2F0042FC9C /* image */ = {
+			isa = PBXGroup;
+			children = (
+				282DC6AD17891A430042FC9C /* demo0.png */,
+				282DC6AE17891A430042FC9C /* demo0@2x.png */,
+				282DC6AF17891A430042FC9C /* demo1.png */,
+				282DC6B017891A430042FC9C /* demo1@2x.png */,
+				282DC6B117891A430042FC9C /* demo2.png */,
+				282DC6B217891A430042FC9C /* demo2@2x.png */,
+				282DC6B317891A430042FC9C /* demo3.png */,
+				282DC6B417891A430042FC9C /* demo3@2x.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +208,14 @@
 				282DC69A1789191B0042FC9C /* Default@2x.png in Resources */,
 				282DC69C1789191B0042FC9C /* Default-568h@2x.png in Resources */,
 				282DC6A21789191B0042FC9C /* ViewController.xib in Resources */,
+				282DC6B517891A430042FC9C /* demo0.png in Resources */,
+				282DC6B617891A430042FC9C /* demo0@2x.png in Resources */,
+				282DC6B717891A430042FC9C /* demo1.png in Resources */,
+				282DC6B817891A430042FC9C /* demo1@2x.png in Resources */,
+				282DC6B917891A430042FC9C /* demo2.png in Resources */,
+				282DC6BA17891A430042FC9C /* demo2@2x.png in Resources */,
+				282DC6BB17891A430042FC9C /* demo3.png in Resources */,
+				282DC6BC17891A430042FC9C /* demo3@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +229,7 @@
 				282DC6921789191B0042FC9C /* main.m in Sources */,
 				282DC6961789191B0042FC9C /* AppDelegate.m in Sources */,
 				282DC69F1789191B0042FC9C /* ViewController.m in Sources */,
+				282DC6AB178919540042FC9C /* NTParallaxView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +261,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
@@ -237,6 +292,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
@@ -258,6 +314,7 @@
 		282DC6A61789191B0042FC9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NTParallaxScrollView/NTParallaxScrollView-Prefix.pch";
 				INFOPLIST_FILE = "NTParallaxScrollView/NTParallaxScrollView-Info.plist";
@@ -269,6 +326,7 @@
 		282DC6A71789191B0042FC9C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NTParallaxScrollView/NTParallaxScrollView-Prefix.pch";
 				INFOPLIST_FILE = "NTParallaxScrollView/NTParallaxScrollView-Info.plist";
