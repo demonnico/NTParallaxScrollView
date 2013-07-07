@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "NTParallaxView.h"
 @interface ViewController : UIViewController
+<NTParallaxViewDataSource,
+NTParallaxViewDelegate>
 
 @end
