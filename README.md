@@ -7,5 +7,8 @@ NTParallaxScrollView
 
 另外奉上一个类似的实现[MDCParallaxView](https://github.com/modocache/MDCParallaxView)
 
+-------
+自己写了个分类，[移步](https://github.com/demon1105/NTParallaxView)
+
 ##TODO:
-Delegate和Datasources部分的整理
+None
