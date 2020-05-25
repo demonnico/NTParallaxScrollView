@@ -10,5 +10,3 @@ NTParallaxScrollView
 -------
 自己写了个分类，[移步](https://github.com/demon1105/NTParallaxView)
 
-##TODO:
-None
